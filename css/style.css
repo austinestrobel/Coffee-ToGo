@@ -1,0 +1,54 @@
+
+html {
+    height: 100vh;
+    width: auto;
+}
+
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    /* color: rgb(241, 234, 209); */
+}
+
+h1 {
+    text-align: center;
+}
+
+#add-order {
+    margin-bottom: 10px;
+}
+
+/* .bottomLinks {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+} */
+
+
+
+/* For Orders */
+
+.orderHere ul {
+    padding: 0;
+}
+
+.orderHere ul li {
+    list-style-type: none;
+    background: #efefef;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: black;
+    max-width: 25em;
+}
+
+.orderHere ul li .edit {
+    display: none;
+}
+
+.orderHere ul li.edit .edit {
+    display: initial;
+}
+
+.orderHere ul li.edit .noedit {
+    display: none;
+}
