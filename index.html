@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -25,6 +26,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="index.html">Coffee ToGo</a>
+                <a href="index.html"><img src="img/CoffeeLogo.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -42,75 +44,107 @@
     </nav>
 
 
+    <div class="container">
 
 
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="img/coffee.jpeg" alt="...">
-                <div class="carousel-caption">
-                    ...
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner text-center" role="listbox">
+                <div class="item active">
+                    <img src="img/coffee.jpeg" alt="...">
+                    <div class="carousel-caption">
+                        <h1>Quality Coffee</h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/Slider4.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h1>Quick Service</h1>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="img/Slider2.jpg" alt="...">
+                    <div class="carousel-caption">
+                        <h1>Ready ToGo</h1>
+                    </div>
                 </div>
             </div>
-            <div class="item">
-                <img src="img/coffee.jpeg" alt="...">
-                <div class="carousel-caption">
-                    ...
-                </div>
-            </div>
-            <div class="item">
-                <img src="img/coffee.jpeg" alt="...">
-                <div class="carousel-caption">
-                    ...
-                </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <div class="jumbotron text-center">
+            <div class="container">
+                <h1>Our Mission</h1>
+                <p>Here at Coffee ToGo, our mission is to adapt to the everyday American way of life. We know schedules
+                    can get busy, but we will always be here to make sure you get your fix: Quick, Easy, Quality Coffee.
+                </p>
+                <a href="order.html" class="btn btn-primary" id="button1">Order Now!</a>
             </div>
         </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
 
-    <div class="jumbotron text-center">
         <div class="container">
-            <h1>Our Mission</h1>
-            <p>Here at Coffee ToGo, our mission is to adapt to the everyday American way of life. We know...</p>
-            <a href="order.html" class="btn btn-primary">Order Now!</a>
+            <div class="row">
+                <blockquote class="blockquote text-left col-md-6 col-sm-6 col-xs-6">
+                    <p>"Coffee ToGo has completely revamped my morning routine. I used to be stressed getting ready for
+                        work, but now I have the comfort in knowing that Coffee ToGo will have my morning coffee ready
+                        for me at a moments notice. Thank you Coffee ToGo!"</p>
+                    <footer><cite title="Jane Doe">Jane Doe</cite></footer>
+                </blockquote>
+                <div class="imgReview text-center col-md-6 col-sm-6 col-xs-6">
+                    <img src="img/womanReview.jpg">
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="row">
+                <div class="imgReview text-center col-md-6 col-sm-6 col-xs-6">
+                    <img src="img/manReview2.jpg">
+                </div>
+                <blockquote class="blockquote text-right col-md-6 col-sm-6 col-xs-6">
+                    <p>"I've always been a big coffee guy, so when I saw the convenience of Coffee ToGo, I had to give
+                        it a try. Not only is the service incredibly fast, but the coffee is fantastic! You have a
+                        lifelong customer in me!"</p>
+                    <footer><cite title="John Doe">John Doe</cite></footer>
+                </blockquote>
+
+            </div>
         </div>
     </div>
 
-    <div class="navbar-fixed-bottom">
-            <div class="panel-footer">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-4">
-                        <p class="text-left">Copyright</p>
-                    </div>
-    
-                    <div class="col-md-4 col-sm-4 col-xs-4">
-                        <p class="text-center"><a href="index.html">LOGO</a></p>
-                    </div>
-    
-                    <div class="col-md-4 col-sm-4 col-xs-4">
-                        <p class="text-right"><a href="contact.html">Contact Us</a></p>
-                    </div>
+    <div class="footer">
+        <div class="panel-footer">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <p class="text-left">&copy; Austin Strobel</p>
+                </div>
+
+                <div class=" text-center col-md-4 col-sm-4 col-xs-4">
+                    <a class="footerLogo" href="index.html"><img src="img/CoffeeLogo.png"></img></a>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <p class="text-right"><a href="contact.html">Contact Us</a></p>
                 </div>
             </div>
         </div>
+    </div>
 
 
 

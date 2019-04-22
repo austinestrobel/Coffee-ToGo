@@ -13,58 +13,108 @@
 <body>
 
 
-     <!-- NavBar -->
-     <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html">Coffee ToGo</a>
-                </div>
-    
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-    
-    
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="order.html">Order</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-    
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-            </div><!-- /.container-fluid -->
-        </nav>
-    
+    <!-- NavBar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Coffee ToGo</a>
+                <a href="index.html"><img src="img/CoffeeLogo.png"></a>
 
-        cart
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
 
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="order.html">Order</a></li>
+                    <li><a href="cart.html">Cart</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+        <h2 class="title text-center">Your Cart</h2>
+        <p id="total">
+
+        </p>
 
 
-        <div class="navbar-fixed-bottom">
-                <div class="panel-footer">
-                    <div class="row">
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <p class="text-left">Copyright</p>
+
+    </div>
+
+
+    <hr>
+
+    <div class="container">
+        <div class="checkout-panel">
+            <div class="panel-body">
+                <h2 class="title">Checkout</h2>
+
+                <div class="input-fields">
+                    <div class="column-1">
+                        <label for="cardholder">Cardholder's Name</label>
+                        <input type="text" id="cardholder" />
+
+                        <div class="small-inputs">
+                            <div>
+                                <label for="date">Valid thru</label>
+                                <input type="text" id="date" placeholder="MM / YY" />
+                            </div>
+
+                            <div>
+                                <label for="verification">CVV / CVC *</label>
+                                <input type="password" id="verification" />
+                            </div>
                         </div>
-        
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <p class="text-center"><a href="index.html">LOGO</a></p>
-                        </div>
-        
-                        <div class="col-md-4 col-sm-4 col-xs-4">
-                            <p class="text-right"><a href="contact.html">Contact Us</a></p>
-                        </div>
+
+                    </div>
+                    <div class="column-2">
+                        <label for="cardnumber">Card Number</label>
+                        <input type="password" id="cardnumber" />
+
+                        <span class="info">* CVV or CVC is the card security code, unique three digits number on the
+                            back of your card separate from its number.</span>
                     </div>
                 </div>
             </div>
+
+            <div class="panel-footer">
+                <button class="btn next-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="navbar-fixed-bottom">
+        <div class="panel-footer">
+            <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <p class="text-left">&copy; Austin Strobel</p>
+                </div>
+
+                <div class=" text-center col-md-4 col-sm-4 col-xs-4">
+                    <a class="footerLogo" href="index.html"><img src="img/CoffeeLogo.png"></img></a>
+                </div>
+
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                    <p class="text-right"><a href="contact.html">Contact Us</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
