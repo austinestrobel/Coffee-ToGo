@@ -82,7 +82,7 @@ h1 {
 /* For Orders */
 
 #order-background {
-    background-image: url('/img/Slider5.jpg');
+    background-image: url('img/Slider5.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
