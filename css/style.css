@@ -23,6 +23,14 @@ a {
     height: 40px;
 }
 
+.footerPad {
+    padding-top: 10px;
+}
+
+.footerPad1 {
+    padding-top: 5px;
+}
+
 .contact {
     padding-top: 20px;
 }
