@@ -23,7 +23,7 @@ $(function () {
             });
         },
         error: function () {
-            alert('error loading orders');
+            console.log('error loading orders');
         }
     });
 
@@ -41,7 +41,7 @@ $(function () {
                 addOrder(newOrder);
             },
             error: function () {
-                alert('error saving order');
+                console.log('error saving order');
             }
         });
 
@@ -103,7 +103,7 @@ $(function () {
                 $li.removeClass('edit');
             },
             error: function () {
-                alert('error updating order');
+                console.log('error updating order');
             }
         });
     });
