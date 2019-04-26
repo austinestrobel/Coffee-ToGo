@@ -68,6 +68,10 @@ h1 {
     transform-style: preserve-3d;
 }
 
+#review2 {
+    margin-left: -70px;
+}
+
 #contact-submit {
     background-color: rgb(84, 126, 8);
 }
@@ -142,11 +146,7 @@ h1 {
     color: #2e2e2e;
 }
 
-.progress-bar {
-    display: flex;
-    margin-bottom: 50px;
-    justify-content: space-between;
-}
+
 
 .step {
     box-sizing: border-box;
@@ -221,37 +221,6 @@ h1 {
     content: 'Finish';
 }
 
-.payment-method {
-    display: flex;
-    margin-bottom: 60px;
-    justify-content: space-between;
-}
-
-.method {
-    display: flex;
-    flex-direction: column;
-    width: 382px;
-    height: 122px;
-    padding-top: 20px;
-    cursor: pointer;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    background-color: rgb(249, 249, 249);
-    justify-content: center;
-    align-items: center;
-}
-
-.card-logos {
-    display: flex;
-    width: 150px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.radio-input {
-    margin-top: 20px;
-}
-
 input[type='radio'] {
     display: inline-block;
 }
@@ -314,10 +283,16 @@ input[type='password']:focus {
     background: url(img/icons_lock_black.png) no-repeat 95%;
 }
 
+.CVC {
+    margin-left: 20px;
+
+}
+
 .small-inputs {
     display: flex;
     margin-top: 20px;
-    justify-content: space-between;
+    margin-bottom: 0;
+    justify-content: flex-start;
 }
 
 .small-inputs div {
