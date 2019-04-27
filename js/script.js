@@ -16,7 +16,7 @@ $(function () {
     //Using JSON for example, could use given API
     $.ajax({
         type: 'GET',
-        url: 'http://rest.learncode.academy/api/Austin/Coffee/',
+        url: 'https://reqres.in/api/',
         success: function (orders) {
             $.each(orders, function (i, order) {
                 addOrder(order);
@@ -35,7 +35,7 @@ $(function () {
 
         $.ajax({
             type: 'POST',
-            url: 'http://rest.learncode.academy/api/Austin/Coffee/',
+            url: 'https://reqres.in/api/coffee',
             data: order,
             success: function (newOrder) {
                 addOrder(newOrder);
@@ -66,7 +66,7 @@ $(function () {
         var $li = $(this).closest('li');
         $.ajax({
             type: 'DELETE',
-            url: 'http://rest.learncode.academy/api/Austin/Coffee/' + $(this).attr('data-id'),
+            url: 'https://reqres.in/api/' + $(this).attr('data-id'),
             success: function () {
                 $li.fadeOut(300, function () {
                     $(this).remove();
@@ -95,7 +95,7 @@ $(function () {
 
         $.ajax({
             type: 'PUT',
-            url: 'http://rest.learncode.academy/api/Austin/Coffee/' + $li.attr('data-id'),
+            url: 'https://reqres.in/api/' + $li.attr('data-id'),
             data: order,
             success: function (newOrder) {
                 $li.find('span.name').html(order.name);
