@@ -68,12 +68,19 @@ h1 {
     transform-style: preserve-3d;
 }
 
+.carousel-caption h1 {
+    font-size: 60px;
+    /* text-shadow: -1px 0 black, 0 1px black;  */
+
+}
+
 #review2 {
     margin-left: -70px;
 }
 
 #contact-submit {
     background-color: rgb(84, 126, 8);
+    color: white;
 }
 
 #button1 {
@@ -124,6 +131,10 @@ h1 {
     height: auto;
     transform: rotate(90deg);
 } */
+
+.orderHere {
+    max-width: 400px;
+}
 
 .orderHere ul {
     padding: 0;
