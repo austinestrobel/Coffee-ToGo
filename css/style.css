@@ -302,7 +302,7 @@ input[type='password']:focus {
     border-color: rgb(119, 219, 119);
 }
 
-#date {
+/* #date {
     background: url(img/icons_calendar_black.png) no-repeat 95%;
 }
 
@@ -316,7 +316,7 @@ input[type='password']:focus {
 
 #verification {
     background: url(img/icons_lock_black.png) no-repeat 95%;
-}
+} */
 
 .CVC {
     margin-left: 20px;

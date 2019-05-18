@@ -112,19 +112,19 @@ $(function () {
 
     // Checkout
 
-    // var $checkout = $('#checkoutButton');
-    // var $total = $('#total');
+    var $checkout = $('#checkoutButton');
+    var $total = $('#total');
 
 
 
-    // $checkout.on('click', function () {
-    //     if ($orders.length >= 1) {
-    //         $total.html(`Your cart has ${$orders.length} item(s)`),
-    //             $total.html(`Your total is ${$orders.length * 5}`)
-    //     } else {
-    //         $total.html('There are no items in your cart')
-    //     }
-    // })
+    $checkout.on('click', function () {
+        if ($orders('li').length >= 1) {
+            $total('p').append(document.createTextNode(`Your cart has ${$orders('li').length} item(s)`)),
+                $total('p').append(document.createTextNode(`Your total is ${$orders('li').length * 5}`))
+        } else {
+            $total('p').append(document.createTextNode('There are no items in your cart'))
+        }
+    })
 
 
 });
